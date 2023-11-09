@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  
+}
+
+/* this ia a header */
+.nevbar{
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5PX;
+}
+ /* hostel  */
+.img01{
+    height: 10cm;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    margin-top: 30px;
+}
+
+.img1{
+    height: 7cm ;
+    width: 6cm;
+    border: 5px solid black;
+    transition: all 1S ease-in;
+    color: rgb(241 ,15,34);
+   background-image: url("/aryabhatta.jpg");
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.img2{
+    height: 7cm ;
+    width: 6cm;
+    border: 5px solid black;
+    transition: all 1S ease-in;
+    color: rgb(241 ,15,34);
+    
+    background-image: url("/capton.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.img2:hover{
+    transform: scale(1.2);
+}
+
+
+.img02{
+    height: 10cm;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  
+    margin-top: 30px;
+}
+.img12{
+    height: 7cm ;
+    width: 6cm;
+    border: 5px solid black;
+    transition: all 1S ease-in;
+    color: rgb(241 ,15,34);
+    background-image: url("/Rani_Lakshmibai_320.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+ }
+
+.img12:hover{
+    transform: scale(1.2);
+}
+.img22{
+    height: 7cm ;
+    width: 6cm;
+    border: 5px solid black;
+    transition: all 1S ease-in;
+    color: rgb(241 ,15,34);
+   background-image: url("/download.webp");
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.img22:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.main1{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    background-color: wheat;
+
+}
+
+.main2{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    background-color: wheat;
+}
+
+.main3{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    background-color: wheat;
+}
+ /* this is a footer */
+.footer{
+    margin-top: 5cm;
+    background-color: black;
+    height: 8cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer1{
+    height: 5cm;
+    width: 5cm;
+    color: white;
+ 
+}
+ 
+.footer2{
+    height: 5cm;
+    width: 5cm;
+    color: yellow;
+   
+}
+H1{
+    display: flex;
+   color: chocolate;
+    justify-content: space-evenly;
+    padding-top: 50PX;
+}

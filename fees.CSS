@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nevbar{
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5PX;
+}
+
+
+
+.main{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.main1{
+    height: 5cm;
+    width: 7.5cm;
+    border: 2px solid black;
+   
+}
+
+.main2{
+    height: 5cm;
+    width: 7.5cm;
+    border: 2px solid black;
+}
+
+
+ /* this is a footer */
+.footer{
+    margin-top: 5cm;
+    background-color: black;
+    height: 8cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer1{
+    height: 5cm;
+    width: 5cm;
+  
+}
+ 
+.footer2{
+    height: 5cm;
+    width: 5cm;
+    
+}
+h5{
+    color: white;
+}
+button{
+    background-color: yellow;
+    border-radius: 5px;
+}

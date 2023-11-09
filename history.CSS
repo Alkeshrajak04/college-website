@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nevbar{
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5PX;
+}
+
+.main{
+    height: 10cm;
+    background-color: rgb(198, 131, 43);
+    display: flex;
+    justify-content: center;
+}

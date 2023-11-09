@@ -1,0 +1,231 @@
+/* this is a css  */
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+/* this si a header  */
+.navbar{
+    height: 50px;
+    background-color :  rgb(250, 200, 50);
+    /* all items same line */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+ a{
+   text-decoration:  none;
+
+   color:red;
+   
+
+}
+a:hover{
+    border: 1px solid rgb(246, 132, 11);
+}
+#home{
+    padding-right: 100 px;
+}
+.nevbar_second{
+    height: 30px;
+    background-color: yellow;
+    animation-name: colorAnimate1;
+    animation-duration: 1s;
+     animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes colorAnimate1 {
+    
+
+  from { color: red;}
+    to{
+        color: blue;
+    }
+
+
+
+}
+
+.nevbar{
+    display: flex;
+}
+/* this si a main part */
+.hero-section{
+    background-image: url("/image.jpeg");
+    height: 600px;
+    background-size: cover;
+
+}
+h2{
+    
+    
+    display: flex;
+    align-items: cente;
+    justify-content: space-evenly;
+    font-size: 300%;
+    padding-top: 40px;
+    color: rgb(244, 245, 246);
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    /* animation-timing-function: ease_in; */
+    animation-delay: 0s;
+animation-iteration-count: infinite;
+}
+@keyframes colorAnimate {
+    from { color:rgb(214, 27, 149);}
+    to{
+        color: orange;
+    }
+    
+}
+
+
+img{
+    height: 3cm;
+    padding-left: 48%;
+   
+    
+}
+.note{
+    background-color: aqua;
+}
+
+.notic{
+    background-color: beige;
+    height: 5cm;
+    /* border: 2px solid black;
+    border-radius: 2%; */
+         
+}
+.notic1{
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 5%;
+
+
+
+}
+#box{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-evenly;
+   
+}
+.box1{
+    border: 5px solid black;
+    background-image: url("/image2.jpeg");
+    background-size: cover;
+    border-radius: 100px;
+    
+    height: 5cm;
+    width: 5cm;
+
+    
+}
+.box2{
+    height: 5cm;
+    width: 10cm;
+    padding-top: 50px ;
+}
+h6{
+    color: blue;
+}
+  /* this is a course */
+#main{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+   
+}
+.main21{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/computer.jpeg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.main21:hover{
+transform: scale(1.2);
+}
+   
+
+.main22{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/camical.jpg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.main22:hover{
+    transform: scale(1.2);
+    }
+        
+
+
+.main23{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/electronic.jpeg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.main23:hover{
+    transform: scale(1.2);
+    }
+     
+
+
+ 
+
+
+/* this si a footer */
+.foot{
+    background-color: rgb(56,56,56);
+    height: 10cm;
+
+}
+#main3{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-evenly;
+    
+}
+h5{
+    text-align: center;
+}
+h4{
+    margin-top: 10px;
+    
+}
+i{
+    display: flex;
+   
+    justify-content: space-evenly;
+    padding-top: 5px;
+    
+}
+h3{
+    color: white;
+}

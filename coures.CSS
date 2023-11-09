@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nevbar{
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5PX;
+}
+
+
+#main{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+   
+}
+.main21{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/computer.jpeg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.main21:hover{
+transform: scale(1.2);
+}
+   
+
+.main22{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/camical.jpg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.main22:hover{
+    transform: scale(1.2);
+    }
+        
+
+
+.main23{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-image: url(/electronic.jpeg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.main23:hover{
+    transform: scale(1.2);
+    }
+     
+
+
+
+.footer1{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid white;
+}
+ 
+.footer2{
+    height: 5cm;
+    width: 5cm;
+    border: 2px solid white;
+}
